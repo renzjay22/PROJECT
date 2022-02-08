@@ -1,0 +1,25 @@
+CRITICAL - 2022-02-07 21:28:46 --> Invalid file: \Signin\App\Views\Signin.php
+#0 C:\xampp\htdocs\ci4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('\\Signin\\App\\Vie...')
+#1 C:\xampp\htdocs\ci4\system\Common.php(1089): CodeIgniter\View\View->render('\\Signin\\App\\Vie...', Array, true)
+#2 C:\xampp\htdocs\ci4\app\Controllers\SigninController.php(14): view('\\Signin\\App\\Vie...')
+#3 C:\xampp\htdocs\ci4\system\CodeIgniter.php(825): App\Controllers\SigninController->index()
+#4 C:\xampp\htdocs\ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-07 21:28:59 --> Invalid file: \Signin\App\Views\Signin.php
+#0 C:\xampp\htdocs\ci4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('\\Signin\\App\\Vie...')
+#1 C:\xampp\htdocs\ci4\system\Common.php(1089): CodeIgniter\View\View->render('\\Signin\\App\\Vie...', Array, true)
+#2 C:\xampp\htdocs\ci4\app\Controllers\SigninController.php(14): view('\\Signin\\App\\Vie...')
+#3 C:\xampp\htdocs\ci4\system\CodeIgniter.php(825): App\Controllers\SigninController->index()
+#4 C:\xampp\htdocs\ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-07 22:58:35 --> Undefined variable $data
+#0 C:\xampp\htdocs\ci4\app\Controllers\SigninController.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(825): App\Controllers\SigninController->index()
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+#3 C:\xampp\htdocs\ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
